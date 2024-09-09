@@ -33,7 +33,7 @@ class CertificateStack extends StatelessWidget {
               children: [
                 Text(
                   certificateList[index].name,
-                  style: TextStyle(   color: Colors.white,
+                  style: const TextStyle(   color: Colors.white,
                       fontWeight: FontWeight.bold),
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,

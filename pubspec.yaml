@@ -41,6 +41,7 @@ dependencies:
   photo_view: ^0.14.0
   url_launcher: ^6.1.12
   font_awesome_flutter: ^10.5.0
+  lottie: ^3.1.2
 
 dev_dependencies:
   flutter_test:

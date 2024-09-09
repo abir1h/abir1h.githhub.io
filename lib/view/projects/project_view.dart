@@ -8,6 +8,7 @@ import 'components/projects_grid.dart';
 class ProjectsView extends StatelessWidget {
   ProjectsView({super.key});
   final controller = Get.put(ProjectController());
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

@@ -29,10 +29,7 @@ class IntroBody extends StatelessWidget {
                     SizedBox(
                       width: size.width * 0.23,
                     ),
-                    const AnimatedImageContainer(
-                      width: 150,
-                      height: 200,
-                    ),
+                    Image.asset("assets/images/abir.png",height: size.height/2,width: size.width/2,)
                   ],
                 ),
               if (!Responsive.isDesktop(context))
@@ -65,7 +62,7 @@ class IntroBody extends StatelessWidget {
           ),
         ),
         const Spacer(),
-        if (Responsive.isDesktop(context)) const AnimatedImageContainer(),
+        if (Responsive.isDesktop(context))  Image.asset("assets/images/abir.png",height: size.height/2,width: size.width/2,),
         const Spacer()
       ],
     );

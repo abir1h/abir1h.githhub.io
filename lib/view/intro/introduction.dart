@@ -9,6 +9,7 @@ class Introduction extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Row(
+
         children: [
           SizedBox(
             width: MediaQuery.sizeOf(context).width * 0.01,
