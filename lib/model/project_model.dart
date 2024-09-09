@@ -8,16 +8,16 @@ class Project {
 
 List<Project> projectList = [
   Project(
-    'Coffee Application',
-    'Presenting "Coffee" - a Flutter UI application that invites you to indulge in a delightful coffee adventure. Immerse yourself in the world of rich aroma and flavor as you browse through an exquisite selection of specialty coffees. With a user-friendly interface, exploring different blends and discovering their unique details becomes a delightful experience.',
-    'assets/images/coffee.png',
-    'https://github.com/Hamad-Anwar/Coffe-Shop-Beautifull-UI',
+    'ADB LMS',
+    'Presenting "ADB LMS" - The ADB LMS is a specialized learning management system designed to meet the specific training needs of the Asian Development Bank (ADB) and Bangladesh Bank. This platform serves as a comprehensive digital hub for professional development, offering a wide array of educational resources tailored to the unique demands of these financial institutions.',
+    'assets/images/adb.png',
+    'https://github.com/abir1h/ADB-LMS',
   ),
   Project(
-    'Car Controller Application UI',
-    'Car Control Dashboard is a user-friendly mobile application built using Flutter and powered by GetX for efficient state management. Enjoy a modern and intuitive design that adapts to various screen sizes, Interact with dynamic car controls, including speed, steering, and temperature. Realistic animations enhance the visual appeal, making it feel like you are controlling a real car!',
-    'assets/images/car.png',
-    'https://github.com/Hamad-Anwar/Car-Controller-Getx-Flutter',
+    'E-Library',
+    "The eLibrary app, developed using Flutter, is a dynamic and user-friendly digital library platform designed to provide users with easy access to a wide range of reading materials. Built with a focus on cross-platform compatibility, the app offers a seamless experience on both iOS and Android devices, leveraging Flutter's capabilities to deliver smooth performance and a consistent user interface.",
+    'assets/images/elib.png',
+    'https://github.com/abir1h/elib/tree/stage',
   ),
   Project(
       'Neumorphic Clockify',
