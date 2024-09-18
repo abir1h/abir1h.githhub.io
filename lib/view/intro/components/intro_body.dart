@@ -1,7 +1,10 @@
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
+import 'package:flutter_portfolio/view%20model/getx_controllers/projects_controller.dart';
 import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
+import '../../home/widgets/entrance_fader.dart';
 import 'animated_texts_componenets.dart';
 import 'combine_subtitle.dart';
 import 'description_text.dart';
@@ -60,13 +63,59 @@ class IntroBody extends StatelessWidget {
 
 
 
+
               ),
+
+              EntranceFader(
+                offset: const Offset(-10, 0),
+                delay: const Duration(seconds: 1),
+                duration: const Duration(milliseconds: 800),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.play_arrow_rounded,
+                      color: Colors.white,
+                    ),
+                    AnimatedTextKit(
+                      totalRepeatCount: 100,
+                      animatedTexts: [
+                        TyperAnimatedText(
+                          'A Passionate Flutter Developer',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: TextStyle(fontWeight: FontWeight.w400,fontSize: 16),
+                        ),
+                        TyperAnimatedText(
+                          ' Craft Dynamic Applications',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: TextStyle(fontWeight: FontWeight.w400,fontSize: 16),
+                        ),
+                        TyperAnimatedText(
+                          ' Turn Your Ideas Into Real',
+                          speed: const Duration(milliseconds: 50),
+                          textStyle: TextStyle(fontWeight: FontWeight.w400,fontSize: 16),
+                        ),
+                      ],
+                      isRepeatingAnimation: true,
+                    )
+
+                  ],
+                ),
+              ),
+              SizedBox(height: size.height/10,),
               const DownloadButton(),
             ],
           ),
         ),
         const Spacer(),
-        if (Responsive.isDesktop(context))  Image.asset("assets/images/abir.png",height: size.height/2,width: size.width/2,),
+        if (Responsive.isDesktop(context))  EntranceFader(
+          offset: const Offset(0, 0),
+          delay: const Duration(milliseconds: 1000),
+          duration: const Duration(milliseconds: 800),
+          child: Image.asset(
+            "${assetHolder}profile_pic.png",
+            height: size.height/2,width: size.width/2,
+          ),
+        ),
         const Spacer()
       ],
     );

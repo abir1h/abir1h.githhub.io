@@ -4,6 +4,9 @@ import 'package:flutter_portfolio/view/intro/introduction.dart';
 import 'package:flutter_portfolio/view/main/main_view.dart';
 import 'package:flutter_portfolio/view/projects/project_view.dart';
 
+import '../about/about.dart';
+import '../gallery/gallery.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -12,7 +15,8 @@ class HomePage extends StatelessWidget {
     return  MainView(pages: [
       const Introduction(),
       ProjectsView(),
-      Certifications(),
+      About(),
+      GalleryView(),
     ]);
   }
 }
