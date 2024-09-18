@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/view%20model/getx_controllers/projects_controller.dart';
+import '../../view%20model/getx_controllers/projects_controller.dart';
 
 import '../../configs/app_dimensions.dart';
 import '../../configs/app_theme.dart';
