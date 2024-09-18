@@ -62,7 +62,7 @@ class AboutDesktop extends StatelessWidget {
                         ),
         
 
-                         Row(
+                         const Row(
                           children: [
                             Column(
                               crossAxisAlignment: CrossAxisAlignment.start,

@@ -22,7 +22,7 @@ class ProjectDescriptionPage extends StatelessWidget {
                     height: isMobile ? 100 : 400,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Text(
                     'Project Title',
                     style: TextStyle(
@@ -30,29 +30,29 @@ class ProjectDescriptionPage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   Text(
                     'This is a brief description of the project...',
                     style: TextStyle(fontSize: isMobile ? 16 : 18),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Image.asset(
                     'assets/images/lms_2.png',
                     height: isMobile ? 150 : 300,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Text(
                     'Here is some more information about the project...',
                     style: TextStyle(fontSize: isMobile ? 16 : 18),
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Image.asset(
                     'assets/images/lms_3.png',
                     height: isMobile ? 150 : 300,
                     fit: BoxFit.cover,
                   ),
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   Text(
                     'Conclusion or summary of the project...',
                     style: TextStyle(fontSize: isMobile ? 16 : 18),
